@@ -1,0 +1,40 @@
+.app-game-container {
+  height: 100vh;
+  background: radial-gradient(circle, #1f3756 0%, #141539 100%);
+  &__block-start {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__timer {
+      width: 120px;
+      height: 120px;
+      background-color: skyblue;
+      color: black;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+    }
+    &__block-restart {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+      margin: 30px;
+      &__btn {
+        padding: 5px 25px;
+        margin-bottom: 15px;
+        border: 1px solid white;
+      }
+      &__btn:hover {
+        background-color: #1f3554;
+        color: white;
+        border: 1px solid white;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
